@@ -21,7 +21,8 @@ test_backtrace(int x)
 
 void
 i386_init(void)
-{
+{ 
+	
 	extern char edata[], end[];
 
 	// Before doing anything else, complete the ELF loading process.
